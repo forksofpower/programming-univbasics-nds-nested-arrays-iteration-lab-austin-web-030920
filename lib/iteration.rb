@@ -46,12 +46,12 @@ def total_even_pairs(src)
     a = src[row_index][0]
     b = src[row_index][1]
 
+    # modulo must be compared to a number for Boolean result
     if (a % 2 == 0 && b % 2 == 0)
-      puts a + b
       total += (a + b)
     end
 
     row_index += 1
   end
-  total
+  total #=> Integer
 end
