@@ -47,6 +47,7 @@ def total_even_pairs(src)
     b = src[row_index][1]
 
     if (a % 2 && b % 2)
+      puts a + b
       total += (a + b)
     end
 
